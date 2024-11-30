@@ -14,21 +14,6 @@ function getComputerChoice() {
   }
 }
 
-// function getUserChoice() {
-//   const selection = prompt(
-//     "Select Rock, Paper or Scissors. Write it out correctly"
-//   );
-
-//   if (
-//     selection.toLowerCase() !== "rock" &&
-//     selection.toLowerCase() !== "paper" &&
-//     selection.toLowerCase() !== "scissors"
-//   ) {
-//     return getUserChoice();
-//   }
-//   return selection;
-// }
-
 function playRound(humanChoice, computerChoice) {
   humanChoice = humanChoice.toLowerCase();
   computerChoice = computerChoice.toLowerCase();
@@ -51,12 +36,6 @@ function playRound(humanChoice, computerChoice) {
     return "Computer";
   }
 }
-
-// const gameContainer = document.querySelector("#game-container");
-
-// gameContainer.addEventListener("click", (event) => {
-//   playRound(event.target.id, getComputerChoice());
-// });
 
 function playGame() {
   const gameContainer = document.querySelector("#game-container");

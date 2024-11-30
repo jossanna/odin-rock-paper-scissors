@@ -1,23 +1,24 @@
 # Rock Paper Scissors Game
 
-A simple implementation of the classic Rock Paper Scissors game that runs in the browser console. This project is part of [The Odin Project](https://www.theodinproject.com) curriculum.
+A simple implementation of the classic Rock Paper Scissors game with a graphical user interface. This project is part of [The Odin Project](https://www.theodinproject.com) curriculum.
 
 ## How to Play
 
 1. Open the game in your web browser
-2. The game will prompt you to make your selection
-3. Type one of the following options (case-insensitive):
+2. Click one of the three buttons to make your selection:
    - Rock
    - Paper
    - Scissors
-4. The computer will randomly make its selection
-5. The game consists of 5 rounds
-6. After each round, you'll see:
+3. The computer will automatically make its selection
+4. The game consists of 5 rounds
+5. After each round, you'll see:
+   - The round number
    - Your selection
    - Computer's selection
-   - The round result
-   - Current score
-7. At the end of 5 rounds, the final score and winner will be announced
+   - The round winner
+   - Updated scores
+6. At the end of 5 rounds, the final winner will be announced
+7. Click the "Reset" button to start a new game
 
 ## Game Rules
 
@@ -30,15 +31,21 @@ A simple implementation of the classic Rock Paper Scissors game that runs in the
 
 The game is implemented in vanilla JavaScript and includes:
 
+- Graphical user interface with buttons
 - Random computer selection
-- Input validation
 - Score tracking
-- Round-by-round gameplay
+- Round-by-round gameplay display
 - Final result calculation
+- Game reset functionality
 
 ## Getting Started
 
-Simply open the `index.html` file in your web browser to start playing. The game runs entirely in the browser console, so make sure to open your browser's developer tools (usually F12) to see the game progress.
+Simply open the `index.html` file in your web browser to start playing. The game features a clean, simple interface that displays:
+
+- Selection buttons
+- A table showing the results of each round
+- Current scores
+- Game result announcement after 5 rounds
 
 ## Acknowledgments
 
